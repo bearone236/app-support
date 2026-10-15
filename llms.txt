@@ -1,0 +1,15 @@
+# bearone236 app support
+
+> 個人開発アプリのサポートページとプライバシーポリシーの一覧。
+
+## Apps
+
+- [Vanish - 消える○×ゲーム](https://bearone236.github.io/app-support/vanish/): ○×ゲームに「駒は最大3つ、4つ目で最古の駒が消える」ルールを加えたパズル対戦ゲーム。App Store: https://apps.apple.com/app/id6759029498
+- [Oriru - 電車の乗り過ごし防止アラーム](https://bearone236.github.io/app-support/oriru/): 降車駅に近づくとアラームで起こす iOS アプリ。
+- [PillLog](https://bearone236.github.io/app-support/pilllog/): 服薬リマインダーアプリ。
+- [Daygrid](https://bearone236.github.io/app-support/daygrid/): 1 日 1 枚の写真を残すアプリ。
+
+## Privacy
+
+- [Vanish のプライバシーポリシー](https://bearone236.github.io/vanish-tic-tac-toe-privacy/)
+- [Oriru のプライバシーポリシー](https://bearone236.github.io/app-support/oriru/privacy/)
