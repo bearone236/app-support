@@ -7,7 +7,7 @@
   <link rel="alternate" hreflang="ja" href="https://bearone236.github.io/app-support/vanish/">
   <link rel="alternate" hreflang="en" href="https://bearone236.github.io/app-support/vanish/en/">
   <link rel="alternate" hreflang="x-default" href="https://bearone236.github.io/app-support/vanish/en/">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="vanish.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -34,41 +34,52 @@
     ]
   }
   </script>
-</head><body><main>
-  <nav><a href="../">← All apps</a> · <a href="en/" hreflang="en" lang="en">English</a></nav>
-  <h1>Vanish — 消える○×ゲーム</h1>
-  <p class="lead">○×ゲームに「消える」ルールを足しただけ。それだけで、戦略が一変します。</p>
-  <div class="links">
-    <a href="https://apps.apple.com/app/id6759029498">App Store で見る</a>
+</head><body>
+<div class="wrap">
+  <nav class="top" aria-label="サイト"><a href="../">← アプリ一覧</a><a href="en/" hreflang="en" lang="en">English</a></nav>
+  <main>
+    <header class="hero">
+      <div>
+        <div class="brand"><img src="img/icon.png" width="56" height="56" alt=""><span>Vanish - Tic Tac Toe</span></div>
+        <h1>○×ゲームなのに、<em>いちばん古い駒が消える</em>。</h1>
+        <p class="lead">Vanish は、駒を3つまでしか置けない○×ゲーム（三目並べ）です。4つ目を置くと、いちばん古い駒が消えます。盤面が埋まらないので、引き分けはほとんどありません。</p>
+        <a class="cta" href="https://apps.apple.com/app/id6759029498">App Store でダウンロード</a>
+        <span class="cta-note">無料 · iPhone · オフラインで遊べる</span>
+      </div>
+      <figure class="demo" style="margin:0">
+        <div class="board" data-demo-board data-captions="{&quot;place&quot;: &quot;駒はそれぞれ3つまで置けます。&quot;, &quot;warn&quot;: &quot;点滅している駒が、次の一手で消えます。&quot;, &quot;vanish&quot;: &quot;4つ目を置いたので、いちばん古い駒が消えました。&quot;, &quot;static&quot;: &quot;消える直前の駒は点滅して知らせます。&quot;}" role="img" aria-label="デモの盤面。それぞれ駒は3つまでで、4つ目を置くといちばん古い駒が点滅して消える。"><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div></div>
+        <figcaption class="demo-caption" data-demo-caption aria-hidden="true"></figcaption>
+      </figure>
+    </header>
+
+    <section>
+      <h2>新ルール「バニッシュ」</h2>
+      <p class="prose">英語圏では <strong>Infinite Tic Tac Toe</strong> とも呼ばれる遊び方です。完成しかけたラインも、駒が消えれば崩れます。</p>
+      <div class="steps"><div class="step"><b>1</b><h3>3つまで置ける</h3><p>盤面に置ける自分の駒は、最大3つです。</p></div><div class="step"><b>2</b><h3>古い駒が点滅</h3><p>4つ目を置く前に、いちばん古い駒が点滅します。</p></div><div class="step"><b>3</b><h3>置くと消える</h3><p>4つ目を置いた瞬間、いちばん古い駒が消えます。</p></div></div>
+    </section>
+
+    <section>
+      <h2>普通の三目並べとの違い</h2>
+      <p class="prose">普通の 3×3 の○×ゲームは、慣れた人同士だとほぼ引き分けになります。Vanish では、次にどの駒が消えるか（自分のも相手のも）を読む必要があり、数手先を考えた方が勝ちます。</p>
+      <div class="shots"><img src="img/ja-2_vanished.jpg" width="540" height="1168" loading="lazy" alt="対局中の画面。いちばん古い駒がまもなく消える"><img src="img/ja-3_win.jpg" width="540" height="1168" loading="lazy" alt="ラインがそろって勝った画面"><img src="img/ja-4_home.jpg" width="540" height="1168" loading="lazy" alt="デイリーミッションとランクが並ぶホーム画面"></div>
+    </section>
+
+    <section>
+      <h2>できること</h2>
+      <ul class="features"><li><strong>4段階のAI</strong>（おまかせ・イージー・ノーマル・ハード）</li><li><strong>ローカル2人対戦</strong>（1台の iPhone で交互に）</li><li><strong>クイックマッチと3本勝負</strong>、先攻はコイントスで</li><li><strong>デイリーミッションとデイリーチェスト</strong>、ビギナーからマスターまで6段階のランク</li><li><strong>ヒントとアンドゥ</strong>（1ゲームにヒント3回・アンドゥ1回）</li><li><strong>オフライン</strong>で遊べる</li></ul>
+    </section>
+
+    <section class="faq">
+      <h2>よくある質問</h2>
+      <div class="qa"><h3>オフラインでも遊べますか？</h3><p>はい。AI 対戦とローカル対戦は、インターネットに接続しなくても遊べます。</p></div><div class="qa"><h3>広告はありますか？</h3><p>無料で遊べる代わりに広告が表示されます（バナー、一部の対戦の合間の広告、任意で見る動画広告）。アプリ内で広告を消す買い切りの購入もあります。購入の復元は、設定から行えます。</p></div><div class="qa"><h3>データはどう扱われますか？</h3><p>詳しくは、<a href="https://bearone236.github.io/vanish-tic-tac-toe-privacy/">プライバシーポリシー</a>をご覧ください。</p></div><div class="qa"><h3>不具合を見つけたら？</h3><p><a href="https://github.com/bearone236/app-support/issues/new?labels=vanish&amp;title=Vanish%20support%3A%20">サポートフォーム</a>からお送りください。</p></div>
+    </section>
+  </main>
+  <footer>
+    <span>© Kazuya Kumakura</span>
+    <a href="https://apps.apple.com/app/id6759029498">App Store</a>
     <a href="https://bearone236.github.io/vanish-tic-tac-toe-privacy/">プライバシーポリシー</a>
     <a href="https://github.com/bearone236/app-support/issues/new?labels=vanish&amp;title=Vanish%20support%3A%20">お問い合わせ</a>
-  </div>
-
-  <h2>新ルール「バニッシュ」</h2>
-  <p>各プレイヤーが盤面に置ける駒は最大 3 つです。4 つ目を置くと、いちばん古い駒が消えます。完成したラインも、駒が消えれば崩れます。攻めと守りの判断が、最後の一手まで続きます。</p>
-
-  <h2>通常の三目並べとの違い</h2>
-  <p>普通の 3×3 の○×ゲームは、上手な人同士だと引き分けになりやすいです。Vanish は駒が消えるので、引き分けになりにくく、一手ごとに盤面が変わります。</p>
-
-  <h2>遊び方</h2>
-  <h3>4 段階の AI</h3>
-  <p>「おまかせ」は、戦績に応じて強さが自動で変わります。「イージー」「ノーマル」「ハード」からも選べます。AI が手を指すまでの速さも、3 段階で変えられます。</p>
-  <h3>対戦の形式</h3>
-  <p>クイックマッチと、3 本勝負（Best of 3）があります。1 台の端末で 2 人が交互に遊ぶローカル対戦もできます。</p>
-  <h3>遊ぶほど進む</h3>
-  <p>勝っても負けても XP とコインが貯まります。毎日 3 つのデイリーミッションと、デイリーチェストがあります。ランクは、ビギナーからマスターまで 6 段階です。</p>
-  <h3>ヒントとアンドゥ</h3>
-  <p>1 ゲームにつきヒントは 3 回、アンドゥは 1 回使えます。コインでも使えます。</p>
-
-  <h2>よくある質問</h2>
-  <h3>オフラインでも遊べますか？</h3>
-  <p>はい。AI 対戦とローカル対戦は、インターネットに接続しなくても遊べます。</p>
-  <h3>広告はありますか？</h3>
-  <p>無料で遊べる代わりに広告が表示されます（バナー、一部の対戦の合間の広告、任意で見る動画広告）。アプリ内で広告を消す買い切りの購入もあります。購入の復元は、設定から行えます。</p>
-  <h3>データはどう扱われますか？</h3>
-  <p>詳しくは、<a href="https://bearone236.github.io/vanish-tic-tac-toe-privacy/">プライバシーポリシー</a>をご覧ください。</p>
-  <h3>不具合を見つけたら？</h3>
-  <p><a href="https://github.com/bearone236/app-support/issues/new?labels=vanish&amp;title=Vanish%20support%3A%20">サポートフォーム</a>からお送りください。</p>
-
-  <footer>Vanish support · <a href="https://bearone236.github.io/vanish-tic-tac-toe-privacy/">プライバシーポリシー</a></footer>
-</main></body></html>
+  </footer>
+</div>
+<script src="vanish-demo.js" defer></script>
+</body></html>
