@@ -4,6 +4,7 @@
 
 ## Apps
 
+- [Vanish - Infinite Tic Tac Toe (English)](https://bearone236.github.io/app-support/vanish/en/): Free iPhone tic tac toe where each player keeps only 3 pieces; a 4th removes the oldest. 4 AI levels, local 2-player, offline. App Store: https://apps.apple.com/app/id6759029498
 - [Vanish - 消える○×ゲーム](https://bearone236.github.io/app-support/vanish/): ○×ゲームに「駒は最大3つ、4つ目で最古の駒が消える」ルールを加えたパズル対戦ゲーム。App Store: https://apps.apple.com/app/id6759029498
 - [Oriru - 電車の乗り過ごし防止アラーム](https://bearone236.github.io/app-support/oriru/): 降車駅に近づくとアラームで起こす iOS アプリ。
 - [PillLog](https://bearone236.github.io/app-support/pilllog/): 服薬リマインダーアプリ。
